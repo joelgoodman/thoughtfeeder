@@ -1,0 +1,50 @@
+{
+  "name": "thoughtfeeder",
+  "version": "1.0.0",
+  "description": "The [Thought Feeder Podcast](https://thoughtfeederpod.com/) website is going static. We figure there's no point in running this thing on WordPress when our episode files are already stored on Backblaze. Might as well move the site to blazing fast [11ty](https://11ty.dev) on [Netlify](https://netlify.com).",
+  "main": "index.js",
+  "scripts": {
+    "watch:eleventy": "ELEVENTY_ENV=development eleventy --serve",
+    "watch:sass": "sass --watch _includes/assets/scss:_includes/assets/css",
+    "build:sass": "sass _includes/assets/scss:_includes/assets/css",
+    "build:eleventy": "eleventy",
+    "postbuild": "postcss --no-map _site/assets/css/*.css -u autoprefixer cssnano -r",
+    "start": "npm-run-all build:sass --parallel watch:*",
+    "build": "npm-run-all build:sass build:eleventy",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelgoodman/thoughtfeeder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelgoodman/thoughtfeeder/issues"
+  },
+  "homepage": "https://github.com/joelgoodman/thoughtfeeder#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-navigation": "^0.1.6",
+    "@11ty/eleventy-plugin-rss": "^1.1.0",
+    "@ampproject/eleventy-plugin-amp": "^0.5.5",
+    "autoprefixer": "^10.2.4",
+    "cssnano": "^4.1.10",
+    "luxon": "^1.25.0",
+    "markdown-it": "^12.0.4",
+    "markdown-it-anchor": "^7.0.2",
+    "postcss": "^8.2.5",
+    "postcss-cli": "^8.3.1",
+    "purgecss": "^4.0.0",
+    "sass": "^1.32.6"
+  },
+  "dependencies": {
+    "clean-css": "^5.0.1",
+    "eleventy-plugin-embed-everything": "^1.10.0",
+    "eleventy-plugin-excerpt": "^1.1.2",
+    "eleventy-plugin-pwa": "^1.0.8",
+    "html-minifier": "^4.0.0",
+    "terser": "^5.6.0-beta"
+  }
+}

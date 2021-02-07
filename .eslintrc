@@ -1,0 +1,15 @@
+{
+	"globals": {
+		"document": "readonly",
+		"location": "readonly",
+		"window": "readonly",
+		"navigator": "readonly",
+		"wp": "readonly",
+		"_": "readonly",
+		"NodeList": "readonly",
+		"Element": "readonly"
+	},
+	"rules": {
+		"comma-dangle": "off"
+	}
+}

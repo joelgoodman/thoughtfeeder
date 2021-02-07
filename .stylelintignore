@@ -1,0 +1,9 @@
+vendor/
+node_modules/
+assets/images
+*.map
+*.png
+*.json
+LICENSE
+composer.lock
+*.txt
