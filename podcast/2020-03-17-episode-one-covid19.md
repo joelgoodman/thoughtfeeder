@@ -1,7 +1,7 @@
 ---
 title: "Episode 1: COVID-19 in #HESM"
 date: "2020-03-17"
-tags: 
+tags:
   - "hesm"
   - "covid19"
   - "crisis-comms"
@@ -9,7 +9,7 @@ tags:
 
 [Joel Goodman](https://joelgoodman.co/?utm_source=thoughtfeeder) and [J.S. Stansel](https://jsstansel.com/?utm_source=thoughtfeeder) discuss the challenges of covering a global emergency as a higher education social media manager.
 
-* * *
+<!-- more -->
 
 ## Episode Transcript
 
@@ -61,10 +61,10 @@ Then, uh, even though many universities are not prepared to shift their entire c
 
 And that's kind of what we're seeing, you know, questions from parents about how it's going to work. We have kind of a mix of students. Some are very excited about it and thankful that it's happened. And then others that are like, Hey, I don't want to do this. We also have to consider know. We're in Arkansas and a lot of our students are going home to very, very, very rural areas where —
 
-**JG:** Yeah, the, the digital divide like really starts to show up here and, and you know, like, this was something I studied when I was doing my master's degree. It's a lot more than just digital literacy, you know, how do you use computers? How do you learn online? It's do you actually have access to an internet connection that's going to allow you to have the same advantages as your classmates, or do you have access to an internet connection at all?  
+**JG:** Yeah, the, the digital divide like really starts to show up here and, and you know, like, this was something I studied when I was doing my master's degree. It's a lot more than just digital literacy, you know, how do you use computers? How do you learn online? It's do you actually have access to an internet connection that's going to allow you to have the same advantages as your classmates, or do you have access to an internet connection at all?
 In a lot of cases, you know —
 
-**J.S.:** Or even a laptop. And most of them are a lot of students here who their primary device is their phone and they go to the library to write their papers. Right? So that's another issue that we're going to have to confront. And, and I think a lot of it just kind of comes down to flexibility among faculty and understanding, that, hey, these students are going to be at home.  
+**J.S.:** Or even a laptop. And most of them are a lot of students here who their primary device is their phone and they go to the library to write their papers. Right? So that's another issue that we're going to have to confront. And, and I think a lot of it just kind of comes down to flexibility among faculty and understanding, that, hey, these students are going to be at home.
 They may not have access to reliable wifi.
 
 The public K-12 schools just shut down for two weeks here in Arkansas. So I think a lot of students are going to be default babysitters to younger siblings.

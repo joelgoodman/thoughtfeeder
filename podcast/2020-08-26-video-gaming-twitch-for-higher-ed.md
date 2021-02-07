@@ -1,7 +1,7 @@
 ---
 title: "Episode 22: The Uncharted World of Video Gaming in Higher Ed Marketing"
 date: "2020-08-26"
-tags: 
+tags:
   - "marketing"
   - "social-media"
   - "twitch"
@@ -9,6 +9,8 @@ tags:
 ---
 
 Andrew Cassel joins the podcast to talk about his experiments in Twitch streaming for higher education marketing. We touch on everything from how to do it to the effects on lifecycle management for institutions.
+
+<!-- more -->
 
 ## _The Uncharted World of Video Gaming in Higher Ed Marketing_ Transcript
 

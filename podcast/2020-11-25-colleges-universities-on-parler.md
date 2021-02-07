@@ -1,12 +1,14 @@
 ---
 title: "Episode 30: No, your institution doesn't need to be on Parler"
 date: "2020-11-25"
-tags: 
+tags:
   - "media"
   - "social-media"
 ---
 
 The ins-and-outs of weighing whether to join a new social media platform. Does your university really want to be associated with hyper-politicized platforms like Parler?
+
+<!-- more -->
 
 **Joel Goodman:** Welcome to Thought Feeder. My name is Joel. With me as always is the long-suffering Jon-Stephen Stansel. Today, he really wants to talk about the fringe social networks that have been popping up in light of the political-right exodus from Twitter and Facebook, in particular. JS wants to talk about Parler.
 

@@ -1,13 +1,15 @@
 ---
 title: "Episode 31: Higher Ed Resolutions"
 date: "2021-01-10"
-tags: 
+tags:
   - "digital-strategy"
   - "social-listening"
   - "social-media"
 ---
 
 Joel and J.S. talk through some of the things they hope higher ed marketing pros will work on for the new year. After a challenging 2020, the industry could use a recalibration. **_This episode is sponsored by [Squiz](https://www.squiz.net?utm_source=thoughtfeeder)._**
+
+<!-- more -->
 
 ## Transcript for _Higher Ed Resolutions_
 

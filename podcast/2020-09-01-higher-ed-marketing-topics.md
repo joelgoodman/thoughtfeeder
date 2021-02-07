@@ -1,7 +1,7 @@
 ---
 title: "Episode 23: Higher Ed Marketing Mailbag"
 date: "2020-09-01"
-tags: 
+tags:
   - "governance"
   - "marketing"
   - "typography"
@@ -9,11 +9,13 @@ tags:
 
 **Sponsored by Podium Education.** Thought Feeder's first mailbag episode where Jon-Stephen Stansel and Joel Goodman answer listener questions. This episode covers governance, accessibility, and workplace politics.
 
+<!-- more -->
+
 ## _HigherEd Marketing Mailbag_ Transcript
 
 ### This episode is sponsored by Podium Education
 
-Podium Education partners with colleges and universities to offer turnkey, tech skills programs delivered 100% online. Their coursework covers emerging technology areas like data analytics and web development - giving students from all majors the skills needed for a great career in the modern workforce.  
+Podium Education partners with colleges and universities to offer turnkey, tech skills programs delivered 100% online. Their coursework covers emerging technology areas like data analytics and web development - giving students from all majors the skills needed for a great career in the modern workforce.
 If you're interested in increasing enrollment and attracting top students - bring Silicon Valley to your campus with Podium Education. Learn more today at [www.podiumeducation.com](https://www.podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=ep23)
 
 **Joel Goodman:** Welcome to the Thought Feeder podcast. My name is [Joel Goodman](https://joelgoodman.co) with me as always is the inquisitive [Jon-Stephen Stansel](https://jsstansel.com). Today is a mailbag day. It's actually our first mailbag day. We sent out a tweet a few days ago before recording this, asking for your questions or topics or comments. And we got a few.

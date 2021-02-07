@@ -1,7 +1,7 @@
 ---
 title: "Episode 21: Digital Engagement Lessons from Quick Service Restaurants"
 date: "2020-08-17"
-tags: 
+tags:
   - "digital-strategy"
   - "engagement"
   - "marketing"
@@ -10,6 +10,8 @@ tags:
 This episode features Bentley McBentleson, Digital Marketing Director for Long John Silver's. The discussion takes a deep-dive into social media practices, finding your brand voice, and how engaging content can build affinity with brand audiences. What can higher ed learn from fast food marketing? A ton, it turns out.
 
 _Learn more about Bentley and connect with him. He is [@mcbentleson](https://twitter.com/mcbentleson) pretty much everywhere._
+
+<!-- more -->
 
 **_A note from Joel:_** So I totally failed to ask Bentley to plug his stuff, but he did offer help and connection to anyone who wants it. Just connect with him on [Twitter](https://twitter.com/mcbentleson), [LinkedIn](https://linkedin.com/in/mcbentleson), find him on [Facebook](https://www.facebook.com/mcbentleson) and he'd love to chat about this stuff with you.
 

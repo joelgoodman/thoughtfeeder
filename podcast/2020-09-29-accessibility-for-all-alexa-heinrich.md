@@ -1,19 +1,21 @@
 ---
 title: "Episode 25: Accessibility for All"
 date: "2020-09-29"
-tags: 
+tags:
   - "a11y"
   - "social-media"
 ---
 
-**This episode is sponsored by [Podium Education](https://podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=ep25).**  
+**This episode is sponsored by [Podium Education](https://podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=ep25).**
 Alexa Heinrich ([@HashtagHeyAlexa](https://twitter.com/HashtagHeyAlexa)) joins Jon-Stephen and Joel to talk about accessibility on social media.
 
-## _Accessibility for_ _All_ episode transcript
+<!-- more -->
 
-### This episode is sponsored by Podium Education
+## This episode is sponsored by Podium Education
 
 Podium Education partners with colleges and universities to offer turnkey, tech skills programs delivered 100% online. Their coursework covers emerging technology areas like data analytics and web development - giving students from all majors the skills needed for a great career in the modern workforce.
+
+## _Accessibility for_ _All_ episode transcript
 
 If you're interested in increasing enrollment and attracting top students - bring Silicon Valley to your campus with Podium Education. Learn more today at [www.podiumeducation.com](https://www.podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=ep25)
 

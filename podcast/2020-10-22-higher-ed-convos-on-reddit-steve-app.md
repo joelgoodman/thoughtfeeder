@@ -1,12 +1,14 @@
 ---
 title: "Episode 28: Finding Valuable Higher Ed Conversations on Reddit"
 date: "2020-10-22"
-tags: 
+tags:
   - "reddit"
   - "social-listening"
 ---
 
 [Steve App](https://twitter.com/StephenApp) joins the pod to talk about where colleges and universities should be looking for genuine insights into the experience they're offering.
+
+<!-- more -->
 
 **Joel Goodman:** Welcome to the Thought Feeder podcast. My name is Joel Goodman with me as always is the now-locked-in-his-office-at-work, Jon-Stephen Stansel. our thoughts and prayers, uh, sincerely are with him at this moment. Sincerely. cause sorry, JS.
 

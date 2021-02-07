@@ -1,12 +1,14 @@
 ---
 title: "Episode 27: Putting the Social Back in Social Media"
 date: "2020-10-15"
-tags: 
+tags:
   - "community"
   - "social-media"
 ---
 
 Jayde Powell joins the podcast today to talk about how her internships as a young professional shaped her views on social media strategy and the importance of community on the web.
+
+<!-- more -->
 
 ## Transcript for _Putting the Social Back in Social Media_
 

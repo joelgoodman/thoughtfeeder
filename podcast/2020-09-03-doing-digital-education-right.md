@@ -1,7 +1,7 @@
 ---
 title: "Episode 24: Doing Digital Education Right"
 date: "2020-09-03"
-tags: 
+tags:
   - "digital-education"
   - "digital-strategy"
   - "marketing"
@@ -9,6 +9,8 @@ tags:
 ---
 
 **This episode is sponsored by Podium Education.** Christopher Parrish, President of University Partnerships at [Podium Education](https://www.podiumeducation.com/?utm_source=thoughtfeeder&utm_campaign=parrish) talks with Jon-Stephen and Joel about digital education, the challenges facing higher ed, and why tech skills education is crucial to student career success.
+
+<!-- more -->
 
 ## _Doing Digital Education Right_ Episode Transcript
 

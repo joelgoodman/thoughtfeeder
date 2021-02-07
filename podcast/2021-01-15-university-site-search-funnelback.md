@@ -1,7 +1,7 @@
 ---
 title: "Episode 32: University Site Search"
 date: "2021-01-15"
-tags: 
+tags:
   - "digital-strategy"
   - "search"
   - "site-search"
@@ -9,6 +9,8 @@ tags:
 ---
 
 Will Noble from Funnelback joins the show to talk about all things site search in higher ed. This episode is [sponsored by Squiz](https://squiz.net?utm_source=thoughtfeeder&utm_campaign=ep32).
+
+<!-- more -->
 
 ### This episode is sponsored by Squiz
 
