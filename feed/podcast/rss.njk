@@ -1,0 +1,84 @@
+---
+permalink: feed/podcast/rss.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+
+    xmlns:georss="http://www.georss.org/georss"
+    xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+    <channel>
+        <title>{{ site.title }}</title>
+        <atom:link href="https://thoughtfeeder.com/feed/podcast" rel="self" type="application/rss+xml" />
+        <link>https://thoughtfeeder.com/</link>
+        <description>{{ site.feed.description }}</description>
+        <lastBuildDate>{{ collections.episodes | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
+        <language>en-US</language>
+        <copyright>{{ collections.episodes | rssLastUpdatedDate | copyright }} {{ site.copyright }}</copyright>
+        <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
+		<itunes:author>{{ site.feed.author }}</itunes:author>
+        <itunes:type>episodic</itunes:type>
+        <itunes:summary><![CDATA[{{ site.feed.description }}]]></itunes:summary>
+		<itunes:owner>
+			<itunes:name>{{ site.feed.owner }}</itunes:name>
+			<itunes:email>{{ site.author.email }}</itunes:email>
+		</itunes:owner>
+        <itunes:explicit>{{ site.feed.explicit }}</itunes:explicit>
+        <itunes:image href="{{ site.cdn }}/tr:w-1600,h-1600,f-jpg/{{ site.feed.epcover }}"></itunes:image>
+        <image>
+            <url>{{ site.feed.cdn }}/tr:w-1600,h-1600,f-jpg/{{ site.epcover }}</url>
+            <title>{{ site.feed.title }}</title>
+            <link>{{site.feed.url}}</link>
+        </image>
+        <itunes:category text="Business">
+            <itunes:category text="Marketing"></itunes:category>
+        </itunes:category>
+        <itunes:category text="Education"></itunes:category>
+        <itunes:category text="Technology"></itunes:category>
+
+        <sy:updatePeriod>daily</sy:updatePeriod>
+        <sy:updateFrequency>1</sy:updateFrequency>
+        <generator>Eleventy</generator>
+        <image>
+            <url>{{ site.feed.cdn }}/tr:w-32,h-32,f-auto,/{{ site.epcover }}</url>
+            <title>{{ title }}</title>
+            <link>https://thoughtfeederpod.com</link>
+            <width>32</width>
+            <height>32</height>
+        </image>
+        {% for ep in collections.episodes -%}
+            {% set permalink -%}
+                {{ ep.url | url | absoluteUrl( site.url ) }}
+            {%- endset %}
+            {% set audioURL -%}
+                {{ ep.pod.audio | episodeFeedUrl | url }}
+            {%- endset %}
+            {% set content %}
+                {% excerpt ep %}
+            {% endset %}
+            {% set comma = joiner() %}
+            <item>
+                <title>{{ ep.title }}</title>
+                <link>{{ permalink }}</link>
+                <pubDate>{{ ep.date | podPublishDate }}</pubDate>
+                <dc:creator>{{ site.feed.author }}</dc:creator>
+                <guid isPermaLink="false">{{ ep.pod.legacyGUID or ep.pod.audio }}</guid>
+                <description><![CDATA[{{ ep.description | urlencode }}]]></description>
+                <itunes:subtitle><![CDATA[{{ ep.description | urlencode }}]]></itunes:subtitle>
+                <content:encoded><![CDATA[{{ content | urlencode }}]]></content:encoded>
+                <enclosure url="{{ audioURL }}" length="{{ ep.pod.duration }}" type="audio/mpeg"></enclosure>
+                <itunes:keywords>{% for tag in tags -%} {{ comma() }} {{ tag }} {%- endfor %}</itunes:keywords>
+                <itunes:explicit>{{ ep.pod.explicit }}</itunes:explicit>
+				<itunes:block>no</itunes:block>
+                <itunes:duration>{{ ep.pod.duration }}</itunes:duration>
+				<itunes:author>{{ site.feed.author }}</itunes:author>
+            </item>
+        {%- endfor %}
+    </channel>
+</rss>

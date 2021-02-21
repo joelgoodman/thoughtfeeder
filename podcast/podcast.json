@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/episode.njk",
+    "permalink": "podcast/{{ slug }}/index.html",
+    "tags": "episode",
+    "pod": {
+        "cover": "covers/tf-cover-sq.png",
+        "explicit": false
+    }
+}

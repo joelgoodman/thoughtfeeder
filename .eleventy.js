@@ -2,16 +2,18 @@ const { DateTime } = require("luxon");
 const CleanCSS = require("clean-css");
 const { minify } = require("terser");
 const htmlmin = require("html-minifier");
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const embedEverything = require("eleventy-plugin-embed-everything");
-const pluginPWA = require("eleventy-plugin-pwa");
+// const pluginPWA = require("eleventy-plugin-pwa");
 const excerpt = require('eleventy-plugin-excerpt');
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
 module.exports = function(eleventyConfig) {
     // Podcast collection
     eleventyConfig.addLayoutAlias("episode", "layouts/episode.njk");
-    eleventyConfig.addPlugin(eleventyNavigationPlugin);
-    eleventyConfig.addPlugin(pluginPWA);
+    // eleventyConfig.addPlugin(pluginPWA);
+
+    // RSS
+    eleventyConfig.addPlugin(pluginRss);
 
     // Social Embeds
     eleventyConfig.addPlugin(embedEverything, {
@@ -31,6 +33,27 @@ module.exports = function(eleventyConfig) {
     // Date formatting (machine readable)
     eleventyConfig.addFilter("machineDate", dateObj => {
         return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+    });
+
+    // Date formatting (RSS)
+    eleventyConfig.addFilter("podPublishDate", dateObj => {
+        return DateTime.fromJSDate(dateObj).toFormat("ccc, d LLL yyyy TTT");
+    });
+
+    // Copyright announcement
+    eleventyConfig.addFilter("copyright", dateObj => {
+        return "&copy; " + DateTime.fromJSDate(dateObj).toFormat("yyyy");
+    });
+
+    eleventyConfig.addFilter("duration", epDuration => {
+        let duration = epDuration.replace(':', 'm ');
+        return duration +'s';
+    });
+
+    // Set Podcast URL for tracking
+    eleventyConfig.addFilter("episodeFeedUrl", epURL => {
+        let chartable = 'https://chtbl.com/track/' + site.chartable;
+        return chartable + epURL.replace(/^https?\:\/\//i, "");
     });
 
     // Minify CSS
@@ -78,15 +101,12 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addWatchTarget("_includes/assets/scss");
 
     // Don't process files and folders with static assets e.g. images
-    eleventyConfig.addPassthroughCopy({"_includes/assets/icons":"assets/icons"});
-    eleventyConfig.addPassthroughCopy({"_includes/assets/img":"assets/img"});
-    eleventyConfig.addPassthroughCopy({"_includes/assets/js":"assets/js"});
-    eleventyConfig.addPassthroughCopy(".well-known/");
-    eleventyConfig.addPassthroughCopy("manifest.json");
-    eleventyConfig.addPassthroughCopy("site.webmanifest");
-    eleventyConfig.addPassthroughCopy("browserconfig.xml");
-    eleventyConfig.addPassthroughCopy("robots.txt");
-    eleventyConfig.addPassthroughCopy("sw.js");
+    eleventyConfig
+        .addPassthroughCopy({"_includes/assets/img":"assets/img"})
+        .addPassthroughCopy("manifest.json")
+        .addPassthroughCopy("site.webmanifest")
+        .addPassthroughCopy("browserconfig.xml")
+        .addPassthroughCopy("robots.txt");
 
     /* Markdown Plugins */
     let markdownIt = require("markdown-it");
@@ -108,6 +128,11 @@ module.exports = function(eleventyConfig) {
         permalinkSymbol: "#"
     };
 
+    eleventyConfig.setBrowserSyncConfig({
+        ui: false,
+        ghostMode: false,
+        files: ['_site/assets/css/*.css'],
+    });
     return {
         templateFormats: ["md", "njk", "html"],
         pathPrefix: "/",

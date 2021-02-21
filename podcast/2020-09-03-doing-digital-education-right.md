@@ -1,6 +1,28 @@
 ---
-title: "Episode 24: Doing Digital Education Right"
+title: "Doing Digital Education Right"
 date: "2020-09-03"
+slug: "doing-digital-education-right"
+description: "Christopher Parrish talks about digital education, the challenges facing higher ed, and why tech skills education is crucial to student career success. Sponsored by Podium Education."
+pod:
+  number: "24"
+  cover: covers/ep24-cover-chris-parrish.jpg
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+24+-+Doing+Digital+Education+Right.mp3
+  duration: "45:35"
+  filesize: "97.7M"
+  recorded: "2020-08-28"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=177"
+  sponsor:
+    name: "Podium Education"
+    url: https://podiumeducation.com
+social:
+  tw:
+    title: "Doing Digital Education Right ft. Chris Parrish"
+    description: "Christopher Parrish talks about digital education, the challenges facing higher ed, and why tech skills education is crucial to student career success. Sponsored by Podium Education."
+    image: tw-parrish.jpg
+  fb:
+    title: "Doing Digital Education Right ft. Chris Parrish"
+    description: "Christopher Parrish talks about digital education, the challenges facing higher ed, and why tech skills education is crucial to student career success. Sponsored by Podium Education."
+    image: tw-parrish.jpg
 tags:
   - "digital-education"
   - "digital-strategy"
@@ -302,4 +324,4 @@ And again, we want to thank Chris Parrish and Podium education for being on our 
 
 This episode was sponsored by:
 
-[![Podium Education](images/Podium-Logo-22-1024x382.png)](https://podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=parrish)
+[![Podium Education]({{ site.cdn }}/Podium-Logo-22-1024x382.png)](https://podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=parrish)

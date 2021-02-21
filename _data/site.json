@@ -1,0 +1,49 @@
+{
+    "title": "Thought Feeder",
+    "subtitle": "A Higher Ed Digital Marketing Podcast",
+    "url": "https://thoughtfeederpod.com/",
+    "description": "The podcast for social media and digital marketing professionals working in higher education. Encouragement, critique, and solutions.",
+    "epcover": "tf-cover-sq.png",
+    "social": {
+        "tw": {
+            "title": "Thought Feeder",
+            "description": "A higher education digital marketing podcast.",
+            "image": "tf-card.png",
+            "creator": "@ThoughtFeedPod",
+            "site": "@ThoughtFeedPod"
+        },
+        "fb": {
+            "title": "Thought Feeder",
+            "description": "A higher education digital marketing podcast.",
+            "image": "tf-card.png"
+        }
+    },
+    "feed": {
+        "owner": "University Insight",
+        "author": "Joel Goodman &amp; Jon-Stephen Stansel",
+        "description": "Deep thoughts, critique, and solutions for higher education digital marketers. Joel Goodman and Jon-Stephen Stansel host this program that questions the status quo of digital marketing in higher ed and makes recommendations for progressing and improving every institution&#039;s efforts.",
+        "filename": "feed.xml",
+        "path": "/podcast/feed.xml",
+        "id": "https://thoughtfeederpod.com",
+        "url": "https://thoughtfeederpod.com/podcast/feed.xml",
+        "explicit": "clean"
+    },
+    "jsonfeed": {
+        "path": "/podcast/feed.xml",
+        "url": "https://thoughtfeederpod.com/podcast/feed.xml"
+    },
+    "author": {
+        "name": "Joel G Goodman",
+        "email": "joel@universityinsight.com",
+        "url": "https://joelgoodman.co"
+    },
+    "copyright": "University Insight",
+    "cdn": "https://ik.imagekit.io/thoughtfeeder/",
+    "chartable": "6E943F",
+    "subscribe": {
+        "apple": "https://podcasts.apple.com/us/podcast/thought-feeder/id1503117850",
+        "google": "https://podcasts.google.com/feed/aHR0cHM6Ly90aG91Z2h0ZmVlZGVycG9kLmNvbS9mZWVkL3BvZGNhc3Q",
+        "overcast": "https://overcast.fm/itunes1503117850/thought-feeder",
+        "spotify": "https://open.spotify.com/show/1cP3HoH70Y7I5vSPeqVWwS?si=lvZtKDj4SSmT8BPNVzae8Q"
+    }
+}

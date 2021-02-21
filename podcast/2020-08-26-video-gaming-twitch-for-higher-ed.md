@@ -1,6 +1,27 @@
 ---
-title: "Episode 22: The Uncharted World of Video Gaming in Higher Ed Marketing"
+title: "The Uncharted World of Video Gaming in Higher Ed Marketing"
+seo_title: "Video Gaming in Higher Ed Marketing"
 date: "2020-08-26"
+slug: "video-gaming-twitch-for-higher-ed"
+description: "Can the popularity of live-streaming video games be used in higher ed marketing? Andrew Cassel talks us through leveling up our video gaming marketing skills."
+pod:
+  number: "22"
+  cover: covers/ep22-cover-andrew-cassel.jpg
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+22+-+The+Uncharted+World+of+Video+Gaming+in+Higher+Ed+Marketing.mp3
+  duration: "45:06"
+  filesize: "101.4M"
+  recorded: "2020-08-12"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=167"
+  explicit: true
+social:
+  tw:
+    title: "Video Gaming in Higher Ed Marketing"
+    description: "Can the popularity of live-streaming video games be used in higher ed marketing? Andrew Cassel talks us through leveling up our video gaming marketing skills."
+    image: tf-cassel.jpg
+  fb:
+    title: "Video Gaming in Higher Ed Marketing"
+    description: "Can the popularity of live-streaming video games be used in higher ed marketing? Andrew Cassel talks us through leveling up our video gaming marketing skills."
+    image: tf-cassel.jpg
 tags:
   - "marketing"
   - "social-media"

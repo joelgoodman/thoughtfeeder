@@ -1,6 +1,28 @@
 ---
-title: "Episode 25: Accessibility for All"
+title: "Accessibility for All"
 date: "2020-09-29"
+slug: "accessibility-for-all-alexa-heinrich"
+description: "Alexa Heinrich (@HashtagHeyAlexa) joins Jon-Stephen and Joel to talk about accessibility on social media. Sponsored by Podium Education."
+pod:
+  number: "25"
+  cover: "covers/ep25-cover-alexa-heinrich.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+25+-+Accessibility+for+All.mp3"
+  duration: "36:33"
+  filesize: "80.7M"
+  recorded: "2020-09-02"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=187"
+  sponsor:
+    name: "Podium Education"
+    url: https://podiumeducation.com
+social:
+  tw:
+    title: "Accessibility for All ft. Alexa Heinrich"
+    description: "Alexa Heinrich (@HashtagHeyAlexa) joins Jon-Stephen and Joel to talk about accessibility on social media. Sponsored by Podium Education."
+    image: "tf-hashtagheyalexa.jpg"
+  fb:
+    title: "Accessibility for All ft. Alexa Heinrich"
+    description: "Alexa Heinrich (@HashtagHeyAlexa) joins Jon-Stephen and Joel to talk about accessibility on social media. Sponsored by Podium Education."
+    image: "tf-hashtagheyalexa.jpg"
 tags:
   - "a11y"
   - "social-media"

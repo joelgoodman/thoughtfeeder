@@ -1,0 +1,29 @@
+<div class="player" id="audio-controls">
+    <div class="progress-group">
+        <div id="waveform"></div>
+        <div class="progress-bar"><span id="progress"></span></div>
+    </div>
+    <section class="controls">
+        <button class="playpause" id="playpause" aria-pressed="false">
+            <div class="pause-group">
+                <span class="screen-reader-text">Pause</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="icon-pause"><title>Pause</title><g><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path></g></svg>
+            </div>
+            <div class="play-group">
+                <span class="screen-reader-text">Play</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><title>Play</title><g><path d="M8 5v14l11-7z"></path></g></svg>
+            </div>
+        </button>
+        <button class="skip-back" id="skipback">
+            <span class="screen-reader-text">Back 10 seconds</span>
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.0441 10.2949L4.72542 1.97626L3.33898 11.6813L13.0441 10.2949Z" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M13.0441 10.2949L4.72542 1.97626L3.33898 11.6813L13.0441 10.2949Z" fill="currentColor"/>
+                <path d="M2.435 24.1593C4.31224 32.1078 11.4538 38.0237 19.9763 38.0237C29.9309 38.0237 38 29.9546 38 20C38 10.0453 29.9309 1.97626 19.9763 1.97626C15.1334 1.97626 10.7356 3.88677 7.4969 6.99518" stroke="white" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M14.0296 18.2C13.8802 18.104 13.7309 17.9707 13.5816 17.8C13.4322 17.6187 13.3576 17.3733 13.3576 17.064C13.3576 16.488 13.7096 16.0773 14.4136 15.832L16.2856 15.16H16.8296C17.2349 15.16 17.5602 15.2827 17.8056 15.528C18.0509 15.7733 18.1736 16.0987 18.1736 16.504V24.984C18.0562 25.016 17.9016 25.048 17.7096 25.08C17.5176 25.112 17.3042 25.128 17.0696 25.128C16.5896 25.128 16.2429 25.048 16.0296 24.888C15.8162 24.728 15.7096 24.424 15.7096 23.976V17.608L14.0296 18.2ZM25.7374 20.136C25.7374 19.1013 25.5774 18.3227 25.2574 17.8C24.9481 17.2667 24.5268 17 23.9934 17C23.4601 17 23.0388 17.2667 22.7294 17.8C22.4308 18.3227 22.2814 19.1013 22.2814 20.136C22.2814 21.2027 22.4254 21.9973 22.7134 22.52C23.0121 23.032 23.4388 23.288 23.9934 23.288C24.5481 23.288 24.9748 23.032 25.2734 22.52C25.5828 21.9973 25.7374 21.2027 25.7374 20.136ZM24.0094 25.24C23.3908 25.24 22.8201 25.1333 22.2974 24.92C21.7854 24.7067 21.3428 24.3867 20.9694 23.96C20.6068 23.5333 20.3241 23.0053 20.1214 22.376C19.9188 21.736 19.8174 20.9893 19.8174 20.136C19.8174 19.2933 19.9188 18.5573 20.1214 17.928C20.3348 17.288 20.6281 16.7547 21.0014 16.328C21.3748 15.9013 21.8174 15.5813 22.3294 15.368C22.8414 15.1547 23.4014 15.048 24.0094 15.048C24.6068 15.048 25.1614 15.1547 25.6734 15.368C26.1854 15.5813 26.6281 15.9013 27.0014 16.328C27.3748 16.7547 27.6681 17.288 27.8814 17.928C28.0948 18.5573 28.2014 19.2933 28.2014 20.136C28.2014 20.9893 28.0948 21.736 27.8814 22.376C27.6788 23.0053 27.3908 23.5333 27.0174 23.96C26.6548 24.3867 26.2121 24.7067 25.6894 24.92C25.1774 25.1333 24.6174 25.24 24.0094 25.24Z" fill="currentColor"/>
+            </svg>
+        </button>
+        <button class="rate" title="Speed Up" id="rate"><span class="current">1x</span></button>
+    </section>
+    <div class="time"><span id="timer">0:00</span>/<span id="duration">{{episode.data.pod.duration}}</span></div>
+</div>

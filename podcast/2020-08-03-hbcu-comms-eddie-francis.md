@@ -1,6 +1,25 @@
 ---
-title: "Episode 19: Communicate Constantly: Lessons from HBCU Comms"
+title: "Communicate Constantly: Lessons from HBCU Comms"
 date: "2020-08-03"
+slug: "hbcu-comms-eddie-francis"
+description: "Eddie Francis discusses HBCU Comms, building communities, and how predominantly white institutions can better care for their Black communities."
+pod:
+  number: "19"
+  cover: covers/ep19-cover-eddie-francis.jpg
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+19+-+Communicate+Constantly+Lessons+from+HBCU+Comms.mp3
+  duration: "45:30"
+  filesize: "87.7M"
+  recorded: "2020-07-28"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=150"
+social:
+  tw:
+    title: "Communicate Constantly: Lessons from HBCU Comms"
+    description: "Eddie Francis discusses HBCU Comms, building communities, and how predominantly white institutions can better care for their Black communities."
+    image: tf-francis.jpg
+  fb:
+    title: "Communicate Constantly: Lessons from HBCU Comms"
+    description: "Eddie Francis discusses HBCU Comms, building communities, and how predominantly white institutions can better care for their Black communities."
+    image: tf-francis.jpg
 tags:
   - "communication"
   - "hbcu"

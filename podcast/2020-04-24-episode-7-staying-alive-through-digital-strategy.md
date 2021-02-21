@@ -1,6 +1,22 @@
 ---
-title: "Episode 7: Staying Alive Through Digital Strategy"
+title: "Staying Alive Through Digital Strategy"
 date: "2020-04-24"
+slug: "episode-7-staying-alive-through-digital-strategy"
+description: "Joel Goodman and J.S. Stansel make a case for assessing and bolstering digital strategy and marketing in higher education."
+pod:
+  number: "07"
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/TF+-+Episode+07+-+Staying+Alive+Through+Digital+Strategy.mp3
+  duration: "28:02"
+  filesize: "50M"
+  recorded: "2020-04-21"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=62"
+social:
+  tw:
+    title: "Staying Alive Through Digital Strategy"
+    description: "The case for assessing and bolstering digital strategy and marketing in higher education."
+  fb:
+    title: "Staying Alive Through Digital Strategy"
+    description: "The case for assessing and bolstering digital strategy and marketing in higher education."
 tags:
   - "digital-strategy"
   - "user-experience"
@@ -211,4 +227,6 @@ _Thought Feeder_ is hosted by Joel Goodman and Jon-Stephen Stansel and edited by
 
 You can find _Thought Feeder_ wherever you get your podcasts.
 
-_Thought Feeder_ is sponsored by [University Insight](https://universityinsight.com?utm_source=thoughtfeeder).
+* * *
+
+_Thought Feeder_ is a production of [University Insight](https://universityinsight.com?utm_source=thoughtfeeder).

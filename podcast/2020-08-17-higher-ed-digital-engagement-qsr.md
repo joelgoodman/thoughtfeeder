@@ -1,6 +1,25 @@
 ---
-title: "Episode 21: Digital Engagement Lessons from Quick Service Restaurants"
+title: "Digital Engagement Lessons from Quick Service Restaurants"
 date: "2020-08-17"
+slug: "higher-ed-digital-engagement-qsr"
+description: "Bentley McBentleson joins the show to talk about lessons in digital engagement learned from his work with KFC, Longhorn Steakhouse, and Long John Silver's."
+pod:
+  number: "21"
+  cover: covers/ep21-cover-bentley-mcbentleson.jpg
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+21+-+Marketing+Lessons+from+Quick+Service+Restaurants.mp3
+  duration: "49:39"
+  filesize: "106.1M"
+  recorded: "2020-08-07"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=161"
+social:
+  tw:
+    title: "Digital Engagement Lessons from Quick Service Restaurants"
+    description: "Bentley McBentleson shares lessons in digital engagement learned from his work with KFC, Longhorn Steakhouse, and Long John Silver's."
+    image: tf-mcbentleson.jpg
+  fb:
+    title: "Digital Engagement Lessons from Quick Service Restaurants"
+    description: "Bentley McBentleson shares lessons in digital engagement learned from his work with KFC, Longhorn Steakhouse, and Long John Silver's."
+    image: tf-mcbentleson.jpg
 tags:
   - "digital-strategy"
   - "engagement"

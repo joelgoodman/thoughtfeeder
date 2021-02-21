@@ -1,6 +1,27 @@
 ---
-title: "Episode 20: How To Set Goals Beyond the Mission Statement"
+title: "How To Set Goals Beyond the Mission Statement"
+seo_title: "Amanda Goetz: Setting Goals Beyond the Mission Statement"
 date: "2020-08-10"
+slug: "value-based-goals-amanda-goetz"
+description: "Special guest, Amanda Goetz, discusses how important values-based goal setting is to any organization's health."
+pod:
+  number: "20"
+  cover: covers/ep20-cover-amanda-goetz.jpg
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder++-+Episode+20+-+How+to+Set+Goals+Beyond+the+Mission+Statement.mp3
+  duration: "43:50"
+  filesize: "105.6M"
+  recorded: "2020-08-04"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=156"
+  explicit: true
+social:
+  tw:
+    title: "Amanda Goetz: Setting Goals Beyond the Mission Statement"
+    description: "Amanda Goetz, VP of Marketing for The Knot Worldwide, discusses what higher ed can learn from marketing in the wedding industry."
+    image: tf-goetz.jpg
+  fb:
+    title: "Amanda Goetz: Setting Goals Beyond the Mission Statement"
+    description: "Amanda Goetz, VP of Marketing for The Knot Worldwide, discusses what higher ed can learn from marketing in the wedding industry."
+    image: tf-goetz.jpg
 tags:
   - "goals"
   - "inclusivity"

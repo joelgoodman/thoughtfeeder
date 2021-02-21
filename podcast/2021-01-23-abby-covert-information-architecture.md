@@ -1,6 +1,25 @@
 ---
-title: "Episode 33: Abby Covert Makes Sense Out of Messes"
+title: "Abby Covert Makes Sense Out of Messes"
 date: "2021-01-23"
+slug: "abby-covert-information-architecture"
+description: "Abby Covert joins the show to talk about information architecture, usability research, and adding humanity into the design process. Sponsored by Squiz."
+pod:
+  number: "33"
+  cover: "covers/ep33-cover-abby-covert.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+33+-+Information+Architecture+with+Abby+Covert.mp3"
+  duration: "43:21"
+  filesize: "95.4M"
+  recorded: "2020-12-03"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=561"
+social:
+  tw:
+    title: "Abby Covert Makes Sense Out of Messes / Thought Feeder"
+    description: "Abby Covert joins the show to talk about information architecture, usability research, and adding humanity into the design process. Sponsored by Squiz."
+    image: "abby-covert-thoughtfeeder.jpg"
+  fb:
+    title: "Abby Covert Makes Sense Out of Messes / Thought Feeder"
+    description: "Abby Covert joins the show to talk about information architecture, usability research, and adding humanity into the design process. Sponsored by Squiz."
+    image: "abby-covert-thoughtfeeder.jpg"
 tags:
   - "ia"
   - "user-experience"

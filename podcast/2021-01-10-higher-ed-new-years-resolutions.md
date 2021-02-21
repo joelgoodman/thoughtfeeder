@@ -1,6 +1,26 @@
 ---
-title: "Episode 31: Higher Ed Resolutions"
+title: "Higher Ed Resolutions for 2021"
 date: "2021-01-10"
+slug: "higher-ed-new-years-resolutions"
+description: "Joel and J.S. talk through some of the things they hope higher ed marketing pros will work on for the new year. After a challenging 2020, the industry could use a recalibration. Sponsored by Squiz."
+pod:
+  number: "31"
+  cover: "covers/cover-squiz.png"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+31+-+Higher+Ed+Resolutions.mp3"
+  duration: "35:17"
+  filesize: "78M"
+  recorded: "2021-01-05"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=387"
+  explicit: true
+social:
+  tw:
+    title: "Higher Ed Resolutions for 2021"
+    description: "Joel and J.S. talk through some of the things they hope higher ed marketing pros will work on for the new year. After a challenging 2020, the industry could use a recalibration. Sponsored by Squiz."
+    image: "ep31-squiz.jpg"
+  fb:
+    title: "Higher Ed Resolutions for 2021"
+    description: "Joel and J.S. talk through some of the things they hope higher ed marketing pros will work on for the new year. After a challenging 2020, the industry could use a recalibration. Sponsored by Squiz."
+    image: "ep31-squiz.jpg"
 tags:
   - "digital-strategy"
   - "social-listening"
@@ -311,6 +331,6 @@ JS. It's been good to have a conversation with you after a little bit of a break
 
 * * *
 
-[![Squiz](https://thoughtfeederpod.com/wp-content/uploads/2021/01/squiz2020-logo-dark.svg)](https://squiz.net?utm_source=thoughtfeeder&utm_campaign=ep31)
-
 Episode 31 is sponsored by
+
+[![Squiz]({{ site.cdn }}squiz2020-logo-dark.svg)](https://squiz.net?utm_source=thoughtfeeder&utm_campaign=ep31)

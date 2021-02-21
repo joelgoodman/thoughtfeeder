@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+---
+{% set episodeList = collections.episodes | reverse %}
+
+{% for episode in episodeList.slice(0,1) %}
+  {% include "components/ep-small.njk" %}
+  {% include "components/player-controls.njk" %}
+{% endfor %}
+<script src="/assets/js/tf.bundle.js" async></script>

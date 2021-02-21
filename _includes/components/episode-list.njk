@@ -1,0 +1,19 @@
+<section id="all-eps" class="menu">
+    <div class="menu--inner">
+        <header>
+            <h2>All Episodes</h2>
+        </header>
+        {% set episodeList = collections.episodes | reverse %}
+        <ol>
+            {% for ep in episodeList %}
+                <li class="list-ep">
+                    <a href="{{ep.url}}" title="Listen to the episode"{% if ep.url == page.url %} aria-current="page"{% endif %}>
+                        <div class="ep-meta"><span class="episode--number">Episode {{ep.data.pod.number}} /</span> <span class="episode--duration">{{ep.data.pod.duration | duration}}</span></div>
+                        <h3>{{ ep.data.title }}</h3>
+                    </a>
+                </li>
+            {% endfor %}
+        </ol>
+    </div>
+    <button class="cta" id="close-menu">Close</button>
+</section>

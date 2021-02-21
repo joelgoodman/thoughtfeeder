@@ -1,6 +1,25 @@
 ---
-title: "Episode 29: Building Strong, Values-driven Communities"
+title: "Building Strong, Values-driven Communities ft. Danielle Maveal"
 date: "2020-10-29"
+slug: "building-communities-daniellexo"
+description: "Danielle Maveal joins Thought Feeder to talk about her experiences building strong communities for brands and the importance of setting organization-wide values."
+pod:
+  number: "29"
+  cover: "covers/ep29-cover-daniellexo.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+29+-+Building+Strong%2C+Values-driven+Communities.mp3"
+  duration: "33:35"
+  filesize: "72.8M"
+  recorded: "2020-10-13"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=207"
+social:
+  tw:
+    title: "Building Strong, Values-driven Communities"
+    description: "Danielle Maveal (@daniellexo) joins Thought Feeder to talk about her experiences building strong communities for brands."
+    image: "tf-daniellexo.jpg"
+  fb:
+    title: "Building Strong, Values-driven Communities"
+    description: "Danielle Maveal (@daniellexo) joins Thought Feeder to talk about her experiences building strong communities for brands."
+    image: "tf-daniellexo.jpg"
 tags:
   - "branding"
   - "community"

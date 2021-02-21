@@ -1,6 +1,26 @@
 ---
-title: "Episode 23: Higher Ed Marketing Mailbag"
+title: "Higher Ed Marketing Mailbag"
 date: "2020-09-01"
+slug: "higher-ed-marketing-topics"
+description: "Listener questions covering governance, accessibility, and workplace politics in higher ed. Sponsored by Podium Education."
+pod:
+  number: "23"
+  cover: cover/cover-podium.png
+  audio: https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+23+-+Higher+Ed+Marketing+Mailbag.mp3
+  duration: "35:33"
+  filesize: "80.1M"
+  recorded: "2020-08-20"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=172"
+  sponsor:
+    name: "Podium Education"
+    url: https://podiumeducation.com
+social:
+  tw:
+    title: "Higher Ed Marketing Mailbag"
+    description: "Thought Feeder's first mailbag episode where Jon-Stephen Stansel and Joel Goodman answer listener questions. This episode covers governance, accessibility, and workplace politics. Sponsored by Podium Education."
+  fb:
+    title: "Higher Ed Marketing Mailbag"
+    description: "Thought Feeder's first mailbag episode where Jon-Stephen Stansel and Joel Goodman answer listener questions. This episode covers governance, accessibility, and workplace politics. Sponsored by Podium Education."
 tags:
   - "governance"
   - "marketing"

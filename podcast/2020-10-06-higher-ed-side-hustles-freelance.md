@@ -1,6 +1,22 @@
 ---
-title: "Episode 26: How to Side-Hustle in Higher Ed"
+title: "How to Side-Hustle in Higher Ed"
 date: "2020-10-06"
+slug: "higher-ed-side-hustles-freelance"
+description: "Joel Goodman talks about how he moved from working at a university with a side-hustle to starting Bravery Media, his higher ed design + strategy agency."
+pod:
+  number: "26"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+26+-+How+to+Side-Hustle+in+Higher+Ed.mp3"
+  duration: "50:48"
+  filesize: "114M"
+  recorded: "2020-10-15"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=193"
+social:
+  tw:
+    title: "How to Side-Hustle in Higher Ed"
+    description: "Joel Goodman talks about how he moved from working at a university with a side-hustle to starting Bravery Media, his higher ed design + strategy agency."
+  fb:
+    title: "How to Side-Hustle in Higher Ed"
+    description: "Joel Goodman talks about how he moved from working at a university with a side-hustle to starting Bravery Media, his higher ed design + strategy agency."
 tags:
   - "freelance"
   - "waste"

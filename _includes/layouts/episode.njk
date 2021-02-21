@@ -1,0 +1,19 @@
+---
+layout: layouts/base.njk
+---
+
+<section class="episode" id="player">
+    <figure class="episode--cover">
+        <img src="{{ site.cdn }}{{ pod.cover or site.epcover }}" alt="{{ description }}" width="270" height="270" />
+    </figure>
+    {% include "components/player-controls.njk" %}
+</section>
+<article class="episode--info">
+    <header>
+        <div class="episode--number">{{ pod.number }}</div>
+        <h1>{{ seo_title or title }}</h1>
+    </header>
+    <div class="transcript--full">
+        {{ layoutContent | safe }}
+    </div>
+</article>

@@ -1,0 +1,96 @@
+// Mixins
+$mq: ("sm": 768px,
+    "md": 1024px,
+    "lg": 1360px,
+    "xl": 1600px,
+    "huge": 1980px,
+);
+
+@mixin mq($res) {
+
+    @if tiny==$res {
+        @media only screen and (max-width: #{ map-get($mq, "sm") - 1 }) {
+            @content;
+        }
+    }
+
+    @if sm==$res {
+        @media only screen and (min-width: #{map-get($mq, "sm")}) {
+            @content;
+        }
+    }
+
+    @if md==$res {
+        @media only screen and (min-width: #{map-get($mq, "md")}) {
+            @content;
+        }
+    }
+
+    @if lg==$res {
+        @media only screen and (min-width: #{map-get($mq, "lg")}) {
+            @content;
+        }
+    }
+
+    @if xl==$res {
+        @media only screen and (min-width: #{map-get($mq, "xl")}) {
+            @content;
+        }
+    }
+
+    @if huge==$res {
+        @media only screen and (min-width: #{map-get($mq, "huge")}) {
+            @content;
+        }
+    }
+}
+
+:root {
+    /**
+    * Fonts loaded in `head.njk` from Google Fonts
+    *
+    * Weights available:
+    * 400, 500 (Baloo 2), 700, 800
+    *
+    */
+    --font-base: "Work Sans", sans-serif;
+    --font-secondary: "Baloo 2", "Work Sans", sans-serif;
+    --color-blush: #BAA4FF;
+    --color-brand--dark: #3F20A2;
+    --color-brand--green: #aeff96;
+    --color-dark: #100346;
+    --gradient-bg: linear-gradient(167.87deg, var(--color-dark) 0%, #2D217E 99.39%);
+    --gradient-button: linear-gradient(147deg, #8747D8 18.97%, #9E58A4 83.18%);
+    --text-color: #fff;
+    --link-color: var(--color-brand--green);
+    --border-radius: 5px;
+    --grid-unit: 8px;
+    --vspace: calc( 4 * var(--grid-unit) );
+    --hspace: calc( 2 * var(--grid-unit) );
+    --elevation: 0px 20px 60px -30px var(--color-dark);
+    --cta-transcript-bg: var(--color-dark);
+    --cta-transcript-color: var(--text-color);
+    --progress-bar: var(--color-dark);
+    --progress-fill: var(--color-brand--green);
+    --waveform: #BAA4FF;
+    @media ( prefers-color-scheme: light ) {
+        --gradient-bg: #F8F8F8;
+        --text-color: #4421AB;
+        --text-gradient: linear-gradient(90deg, #8747D8 0%, #4622B0 100%);
+        --cta-transcript-bg: var(--color-blush);
+        --cta-transcript-color: var(--color-dark);
+        --progress-bar: var(--color-brand--dark);
+        --progress-fill: var(--color-blush);
+        --waveform: #4421AB;
+    }
+    --base-font-size: clamp(1rem, calc(2vw + 2px), 1.313rem );
+
+    @include mq(md) {
+        --hspace: calc( 6 * var(--grid-unit) );
+    }
+}
+
+.hpadding {
+    padding-left: var(--hspace);
+    padding-right: var(--hspace);
+}

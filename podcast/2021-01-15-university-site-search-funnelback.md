@@ -1,6 +1,25 @@
 ---
-title: "Episode 32: University Site Search"
+title: "The Trouble with University Site Search"
 date: "2021-01-15"
+slug: "university-site-search-funnelback"
+description: "Will Noble from Funnelback joins the show to talk about all things site search in higher ed. This episode is sponsored by Squiz."
+pod:
+  number: "32"
+  cover: "covers/ep32-cover-will-noble.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+32+-+University+Site+Search.mp3"
+  duration: "49:34"
+  filesize: "106.6M"
+  recorded: "2020-10-27"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=501"
+social:
+  tw:
+    title: "The Trouble with University Site Search"
+    description: "Will Noble from Funnelback joins the show to talk about all things site search in higher ed. This episode is sponsored by Squiz."
+    image: "will-noble.jpg"
+  fb:
+    title: "The Trouble with University Site Search"
+    description: "Will Noble from Funnelback joins the show to talk about all things site search in higher ed. This episode is sponsored by Squiz."
+    image: "will-noble.jpg"
 tags:
   - "digital-strategy"
   - "search"

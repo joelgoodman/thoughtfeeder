@@ -1,6 +1,25 @@
 ---
-title: "Episode 28: Finding Valuable Higher Ed Conversations on Reddit"
+title: "Finding Valuable Higher Ed Conversations on Reddit"
 date: "2020-10-22"
+slug: "higher-ed-convos-on-reddit-steve-app"
+description: "Steve App joins the pod to talk about where colleges and universities should be looking for genuine insights into the experience they're offering."
+pod:
+  number: "28"
+  cover: "covers/ep28-cover-steveapp.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+28+-+Finding+Valuable+Higher+Ed+Conversations+on+Reddit.mp3"
+  duration: "50:26"
+  filesize: "112M"
+  recorded: "2020-10-06"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=203"
+social:
+  tw:
+    title: "Finding Valuable Higher Ed Conversations on Reddit"
+    description: "Steve App joins the pod to talk about where colleges and universities should be looking for genuine insights into the experience they're offering."
+    image: "tf-steve-app.jpg"
+  fb:
+    title: "Finding Valuable Higher Ed Conversations on Reddit"
+    description: "Steve App joins the pod to talk about where colleges and universities should be looking for genuine insights into the experience they're offering."
+    image: "tf-steve-app.jpg"
 tags:
   - "reddit"
   - "social-listening"

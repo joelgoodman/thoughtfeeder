@@ -1,0 +1,142 @@
+body {
+    background: var(--gradient-bg) no-repeat;
+    background-size: cover;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: flex-start;
+    align-content: center;
+}
+a {
+    color: inherit;
+    main & {
+        color: var(--color-brand--green);
+    }
+}
+button {
+    // Reset styling.
+    appearance: none;
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+    color: inherit;
+    padding: 0;
+    font-family: var(--font-secondary);
+}
+.cta {
+    border: 1px solid rgba(255,255,255, 0.5);
+    padding: 6px 12px 4px;
+    backdrop-filter: blur(10px);
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: var(--font-secondary);
+    > svg {
+        height: 15px;
+        width: 15px;
+        margin-right: var(--grid-unit);
+    }
+    &:hover {
+        border: 1px solid rgba(255,255,255, 1);
+    }
+    &--transcript {
+        background-color: var(--cta-transcript-bg);
+        color: var(--cta-transcript-color);
+        text-transform: uppercase;
+        border-color: transparent;
+        font-size: 0.875em;
+        display: flex;
+        border-radius: 40px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: calc( 2 * var(--grid-unit));
+    }
+}
+.tf-toolbar {
+    padding: var(--vspace) var(--hspace);
+    width: 100vw;
+    .site-nav {
+        display: grid;
+        grid-template-columns: auto calc(5 * var(--grid-unit)) auto;
+        column-gap: 2vw;
+        font-size: 0.75em;
+        grid-template-areas: "about branding cta";
+        align-items: center;
+    }
+    .branding {
+        grid-area: branding;
+        height: calc(5 * var(--grid-unit));
+        width: calc(5 * var(--grid-unit));
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 1;
+    }
+    button {
+        grid-area: cta;
+        justify-self: end;
+        border-radius: 20px;
+    }
+    .nav-about {
+        grid-area: about;
+        justify-self: start;
+        text-decoration: none;
+    }
+}
+.episode--cover {
+    height: 33.35vh;
+    overflow: visible;
+    width: auto;
+    display: flex;
+    > figure {
+        box-shadow: var(--elevation);
+        object-fit: contain;
+        object-position: center;
+        border-radius: var(--border-radius);
+        overflow: hidden;
+        height: 100%;
+        width: auto;
+        margin-left: auto;
+        margin-right: auto;
+        img {
+            max-width: 100%;
+            height: 100%;
+            width: auto;
+        }
+    }
+}
+.episode--info {
+    text-align: center;
+    @extend .hpadding;
+    margin-top: calc( 3 * var(--grid-unit) );
+    h2 {
+        line-height: 1.1;
+        padding-left: var(--hspace);
+        padding-right: var(--hspace);
+    }
+}
+.episode--number {
+    color: var(--color-blush);
+    font-family: var(--font-secondary);
+    margin-bottom: var(--grid-unit);
+}
+.episode--duration {
+    font-family: var(--font-secondary);
+}
+.episode--transcript {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 100vw;
+}
+
+.cta--transcript, .episode--number, .episode--duration {
+    font-size: 0.875em;
+    font-weight: 700;
+}

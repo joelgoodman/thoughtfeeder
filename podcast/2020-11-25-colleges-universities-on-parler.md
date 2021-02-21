@@ -1,6 +1,22 @@
 ---
-title: "Episode 30: No, your institution doesn't need to be on Parler"
+title: "No, your institution doesn't need to be on Parler"
 date: "2020-11-25"
+slug: "colleges-universities-on-parler"
+description: "How to decide if a new social network is a fit for your institution."
+pod:
+  number: "30"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+30+-+No%2C+Your+Institution+Doesnt+Need+to+be+on+Parler.mp3"
+  duration: "24:37"
+  filesize: "55M"
+  recorded: "2020-11-17"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=219"
+social:
+  tw:
+    title: "No, your institution doesn't need to be on Parler"
+    description: "How to decide if a new social network is a fit for your institution."
+  fb:
+    title: "No, your institution doesn't need to be on Parler"
+    description: "How to decide if a new social network is a fit for your institution."
 tags:
   - "media"
   - "social-media"

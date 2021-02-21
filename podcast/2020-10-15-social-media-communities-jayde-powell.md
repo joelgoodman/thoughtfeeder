@@ -1,6 +1,25 @@
 ---
-title: "Episode 27: Putting the Social Back in Social Media"
+title: "Putting the Social Back in Social Media with Jayde Powell"
 date: "2020-10-15"
+slug: "social-media-communities-jayde-powell"
+description: "Jayde Powell talks about how her internships as a young professional shaped her views on social media strategy and the importance of community on the web."
+pod:
+  number: "27"
+  cover: "covers/ep27-cover-jayde-powell.jpg"
+  audio: "https://f002.backblazeb2.com/file/thoughtfeederS3/episodes/Thought+Feeder+-+Episode+27+-+Putting+the+Social+Back+in+Social+Media+with+Jayde+Powell.mp3"
+  duration: "47:18"
+  filesize: "101.7M"
+  recorded: "2020-10-02"
+  legacyGUID: "https://thoughtfeederpod.com/?post_type=podcast&#038;p=200"
+social:
+  tw:
+    title: "Putting the Social Back in Social Media with Jayde Powell"
+    description: "Jayde Powell talks about how her internships as a young professional shaped her views on social media strategy and the importance of community on the web."
+    image: "tf-jayde-powell.jpg"
+  fb:
+    title: "Putting the Social Back in Social Media with Jayde Powell"
+    description: "Jayde Powell talks about how her internships as a young professional shaped her views on social media strategy and the importance of community on the web."
+    image: "tf-jayde-powell.jpg"
 tags:
   - "community"
   - "social-media"
