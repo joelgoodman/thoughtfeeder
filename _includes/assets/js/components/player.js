@@ -33,6 +33,12 @@ let Player = {
         if (sound.playing()) {
             requestAnimationFrame(Player.step.bind(self));
         }
+    },
+    speed: function( rates ) {
+        let self = this;
+        let currentRate = sound.rate();
+
+        controls.rate.addEventListener
     }
 
 }

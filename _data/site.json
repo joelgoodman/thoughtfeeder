@@ -20,17 +20,13 @@
     },
     "feed": {
         "owner": "University Insight",
-        "author": "Joel Goodman &amp; Jon-Stephen Stansel",
-        "description": "Deep thoughts, critique, and solutions for higher education digital marketers. Joel Goodman and Jon-Stephen Stansel host this program that questions the status quo of digital marketing in higher ed and makes recommendations for progressing and improving every institution&#039;s efforts.",
+        "author": "Joel Goodman & Jon-Stephen Stansel",
+        "description": "Deep thoughts, critique, and solutions for higher education digital marketers. Joel Goodman and Jon-Stephen Stansel host this program that questions the status quo of digital marketing in higher ed and makes recommendations for progressing and improving every institution's efforts.",
         "filename": "feed.xml",
         "path": "/podcast/feed.xml",
         "id": "https://thoughtfeederpod.com",
-        "url": "https://thoughtfeederpod.com/podcast/feed.xml",
+        "url": "https://thoughtfeederpod.com/podcast/",
         "explicit": "clean"
-    },
-    "jsonfeed": {
-        "path": "/podcast/feed.xml",
-        "url": "https://thoughtfeederpod.com/podcast/feed.xml"
     },
     "author": {
         "name": "Joel G Goodman",

@@ -6,6 +6,7 @@ const embedEverything = require("eleventy-plugin-embed-everything");
 // const pluginPWA = require("eleventy-plugin-pwa");
 const excerpt = require('eleventy-plugin-excerpt');
 const pluginRss = require("@11ty/eleventy-plugin-rss");
+const siteData = require('./_data/site.json');
 
 module.exports = function(eleventyConfig) {
     // Podcast collection
@@ -42,7 +43,7 @@ module.exports = function(eleventyConfig) {
 
     // Copyright announcement
     eleventyConfig.addFilter("copyright", dateObj => {
-        return "&copy; " + DateTime.fromJSDate(dateObj).toFormat("yyyy");
+        return DateTime.fromJSDate(dateObj).toFormat("yyyy");
     });
 
     eleventyConfig.addFilter("duration", epDuration => {
@@ -50,10 +51,21 @@ module.exports = function(eleventyConfig) {
         return duration +'s';
     });
 
+    eleventyConfig.addFilter("absoluteUrl", (url, base) => {
+		base = siteData.url;
+		try {
+			return (new URL(url, base)).toString();
+			} catch(e) {
+			console.log(`Trying to convert ${url} to be an absolute url with base ${base} and failed.`);
+			return url;
+		}
+	});
+
     // Set Podcast URL for tracking
-    eleventyConfig.addFilter("episodeFeedUrl", epURL => {
-        let chartable = 'https://chtbl.com/track/' + site.chartable;
-        return chartable + epURL.replace(/^https?\:\/\//i, "");
+    eleventyConfig.addFilter("chartableURL", ( audioURL ) => {
+        let chartable = 'https://chtbl.com/track/' + siteData.chartable + "/";
+
+        return audioURL.replace("https://", chartable);
     });
 
     // Minify CSS
