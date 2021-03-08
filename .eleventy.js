@@ -139,12 +139,6 @@ module.exports = function(eleventyConfig) {
         permalinkClass: "direct-link",
         permalinkSymbol: "#"
     };
-
-    eleventyConfig.setBrowserSyncConfig({
-        ui: false,
-        ghostMode: false,
-        files: ['_site/assets/css/*.css'],
-    });
     return {
         templateFormats: ["md", "njk", "html"],
         pathPrefix: "/",

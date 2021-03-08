@@ -6,7 +6,6 @@ module.exports = {
     require('cssnano'),
     purgecss({
       content: ['./_site/**/*.html']
-    }),
-    require('postcss-present-env')
-  ],
+    })
+  ]
 };

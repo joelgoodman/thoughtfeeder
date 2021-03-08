@@ -9,6 +9,9 @@
     width: 100vw;
     padding-top: 105px;
     clip-path: circle( 40px at 50% var(--vspace) );
+    // Closed state
+    visibility: hidden;
+    transition: clip-path .3s ease-out, visibility .2s .5s;
     header,
     li > a {
         @extend .hpadding;
@@ -49,14 +52,10 @@
         transform: translateX(-50%);
         box-shadow: 0px 0px 30px -10px #000000;
     }
-    // Closed state
-    visibility: hidden;
-    // z-index: -1;
-    transition: clip-path .3s ease-out, visibility .2s .5s;
-    .menu-open & {
-        clip-path: circle( 130% at 50% var(--vspace) );
-        visibility: visible;
-        z-index: 0;
-        transition: clip-path .3s ease-in;
-    }
+}
+.menu-open .menu {
+    clip-path: circle( 130% at 50% var(--vspace) );
+    visibility: visible;
+    z-index: 0;
+    transition: clip-path .3s ease-in;
 }

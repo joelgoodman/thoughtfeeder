@@ -19,7 +19,7 @@ permalink: feed/podcast/feed.xml
         <description>{{ site.feed.description }}</description>
         <lastBuildDate>{{ collections.episodes | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
         <language>en-US</language>
-        <copyright>&copy; {{ collections.episodes | getNewestCollectionItemDate | copyright }} {{ site.copyright }}</copyright>
+        <copyright>© {{ collections.episodes | getNewestCollectionItemDate | copyright }} {{ site.copyright }}</copyright>
         <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
 		<itunes:author>{{ site.feed.author }}</itunes:author>
         <itunes:type>episodic</itunes:type>

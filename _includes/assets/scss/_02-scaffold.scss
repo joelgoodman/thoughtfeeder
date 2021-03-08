@@ -63,7 +63,7 @@ button {
     width: 100vw;
     .site-nav {
         display: grid;
-        grid-template-columns: auto calc(5 * var(--grid-unit)) auto;
+        grid-template-columns: 1fr calc(5 * var(--grid-unit)) 1fr;
         column-gap: 2vw;
         font-size: 0.75em;
         grid-template-areas: "about branding cta";
