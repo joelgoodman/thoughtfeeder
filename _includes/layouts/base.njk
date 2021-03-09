@@ -1,12 +1,12 @@
 <!doctype html>
 <html {% if section %} class="layout-{{ section }}"{% endif %} lang="en">
     {% include "components/head.njk" %}
-<body>
-    {% include "components/toolbar.njk" %}
-    <main>
-        {{ layoutContent | safe }}
-    </main>
-    {% include "components/episode-list.njk" %}
-    <script src="/assets/js/tf.js" async></script>
-</body>
+    <body>
+        {% include "components/toolbar.njk" %}
+        <main>
+            {{ layoutContent | safe }}
+        </main>
+        {% include "components/episode-list.njk" %}
+        <script src="/assets/js/tf.bundle.js" async></script>
+    </body>
 </html>

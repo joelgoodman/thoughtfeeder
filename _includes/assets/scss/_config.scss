@@ -1,5 +1,7 @@
 // Mixins
-$mq: ("sm": 768px,
+$mq: (
+    "xs": 375px,
+    "sm": 768px,
     "md": 1024px,
     "lg": 1360px,
     "xl": 1600px,
@@ -65,7 +67,7 @@ $mq: ("sm": 768px,
     --link-color: var(--color-brand--green);
     --border-radius: 5px;
     --grid-unit: 8px;
-    --vspace: calc( 4 * var(--grid-unit) );
+    --vspace: calc( 2 * var(--grid-unit) );
     --hspace: calc( 2 * var(--grid-unit) );
     --elevation: 0px 20px 60px -30px var(--color-dark);
     --cta-transcript-bg: var(--color-dark);
@@ -73,6 +75,9 @@ $mq: ("sm": 768px,
     --progress-bar: var(--color-dark);
     --progress-fill: var(--color-brand--green);
     --waveform: #BAA4FF;
+    @include mq(xs) {
+        --vspace: calc( 4 * var(--grid-unit) );
+    }
     @media ( prefers-color-scheme: light ) {
         --gradient-bg: #F8F8F8;
         --text-color: #4421AB;

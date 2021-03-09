@@ -11,36 +11,46 @@
     font-weight: 500;
 }
 .progress-group {
-    height: 20vh;
+    height: 8vh;
     position: relative;
     order: 1;
     display: flex;
     align-items: center;
-    #waveform {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 30vh;
-        width: 100%;
-        transform: translateY(-5vh);
+    width: 100%;
+    max-width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    @include mq(xs) {
+        height: 20vh;
     }
     .progress-bar {
+        width: 100%;
+        border-radius: 1.5px;
+    }
+    progress[value] {
+        appearance: none;
         background-color: var(--progress-bar);
-        position: relative;
+        border: none; // for FF and Opera
+        border-radius: 1.5px;
+        color: var(--progress-fill); // For IE
+        display: block;
         width: 100%;
         height: 3px;
-        border-radius: 1.5px;
-        max-width: 85vw;
-        margin-left: auto;
-        margin-right: auto;
-        > span {
-            display: block;
-            position: absolute;
-            left: 0;
-            height: 3px;
+        &::-webkit-progress-bar {
+            background-color: var(--progress-bar);
+            position: relative;
             border-radius: 1.5px;
+        }
+        &::-webkit-progress-value {
             background-color: var(--progress-fill);
             box-shadow: 0 0 5px var(--progress-fill);
+            border-radius: 1.5px;
+        }
+        &::-moz-progress-bar {
+            background-color: var(--progress-fill);
+            box-shadow: 0 0 5px var(--progress-fill);
+            border-radius: 1.5px;
         }
     }
 }
