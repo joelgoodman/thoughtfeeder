@@ -6,7 +6,12 @@
         <main>
             {{ layoutContent | safe }}
         </main>
+        {% include "components/player-controls.njk" %}
         {% include "components/episode-list.njk" %}
+        {% set js %}
+            {% include "_includes/assets/js/critical.js" %}
+        {% endset %}
+        <script>{{ js | jsmin | safe }}</script>
         <script src="/assets/js/tf.bundle.js" async></script>
     </body>
 </html>

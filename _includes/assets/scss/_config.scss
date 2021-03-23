@@ -10,8 +10,9 @@ $mq: (
 
 @mixin mq($res) {
 
-    @if tiny==$res {
-        @media only screen and (max-width: #{ map-get($mq, "sm") - 1 }) {
+
+    @if xs==$res {
+        @media only screen and (min-width: #{map-get($mq, "xs")}) {
             @content;
         }
     }

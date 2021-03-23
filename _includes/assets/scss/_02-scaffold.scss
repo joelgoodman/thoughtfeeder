@@ -6,8 +6,12 @@ body {
     flex-direction: column;
     height: 100vh;
     overflow: hidden;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-content: center;
+    padding-bottom: 15vh;
+}
+main {
+    justify-self: center;
 }
 a {
     color: inherit;

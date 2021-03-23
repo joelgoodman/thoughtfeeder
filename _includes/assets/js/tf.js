@@ -5,7 +5,8 @@ let audioSrc = document.querySelector('.episode').getAttribute('data-audio');
 const controls = ['playpause', 'skipback', 'timer', 'rate'];
 const progress = document.querySelector('progress');
 const progressGroup = document.querySelector('.progress-group');
-const rates = ['1', '1.5', '2', '3'];
+const speeds = ['1', '1.5', '2'];
+let currentSpeed = 0;
 controls.forEach( c => {
   window[c] = document.getElementById(c);
 });
@@ -34,10 +35,6 @@ let Player = {
         if (sound.playing()) {
             requestAnimationFrame(Player.step.bind(self));
         }
-    },
-    speed: function( rates ) {
-        let self = this;
-        let currentRate = sound.rate();
     }
 
 }
@@ -75,19 +72,20 @@ playpause.addEventListener('click', () => {
     }
 });
 
-skipback.addEventListener( 'click', () => {
-    // Go back 10seconds.
-    sound.seek("-10");
+skipback.addEventListener( 'click', (e) => {
+    let now = sound.seek();
+    sound.seek( now -10 );
 } );
 
-rate.addEventListener( 'click', () => {
-    let currentRate = sound.rate();
-    console.log(currentRate);
+rate.addEventListener( 'click', ( e ) => {
+    currentSpeed = (currentSpeed+1) % (speeds.length);
+    rate.querySelector('.current').innerHTML = speeds[currentSpeed] + "x";
+    sound.rate(speeds[currentSpeed]);
 });
 
 progressGroup.addEventListener( 'click', (e) => {
     let box = progressGroup.getBoundingClientRect();
     let seekPoint = (e.clientX - box.left) / box.width;
 
-    sound.seek( ( ( seekPoint * 100 ) || 0) );
+    sound.pause().seek( seekPoint * sound.duration() ).play();
 });

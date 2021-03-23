@@ -17,7 +17,7 @@ permalink: feed/podcast/feed.xml
         <atom:link href="https://thoughtfeeder.com/feed/podcast/" rel="self" type="application/rss+xml" />
         <link>{{ site.url }}</link>
         <description>{{ site.feed.description }}</description>
-        <lastBuildDate>{{ collections.episodes | getNewestCollectionItemDate | dateToRfc3339 }}</lastBuildDate>
+        <lastBuildDate>{{ collections.episodes | getNewestCollectionItemDate | podPublishDate }}</lastBuildDate>
         <language>en-US</language>
         <copyright>© {{ collections.episodes | getNewestCollectionItemDate | copyright }} {{ site.copyright }}</copyright>
         <itunes:subtitle>{{ site.subtitle }}</itunes:subtitle>
