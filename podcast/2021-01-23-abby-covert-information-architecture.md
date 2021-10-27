@@ -27,8 +27,7 @@ tags:
 
 [Abby Covert](https://abbycovert.com?utm_source=thoughtfeeder&utm_campaign=ep33) joins the show to talk about information architecture, usability research, and adding humanity into the design process. This episode is [sponsored by Squiz](https://squiz.net?utm_source=thoughtfeeder&utm_campaign=ep33).
 
-<!-- more -->
-
+<!--more-->
 ## Transcript for _Abby Covert Makes Sense Out of Messes_
 
 ![Squiz](https://thoughtfeederpod.com/wp-content/uploads/2021/01/squiz2020-logo-light.svg)

@@ -30,7 +30,7 @@ This episode features Bentley McBentleson, Digital Marketing Director for Long J
 
 _Learn more about Bentley and connect with him. He is [@mcbentleson](https://twitter.com/mcbentleson) pretty much everywhere._
 
-<!-- more -->
+<!--more-->
 
 **_A note from Joel:_** So I totally failed to ask Bentley to plug his stuff, but he did offer help and connection to anyone who wants it. Just connect with him on [Twitter](https://twitter.com/mcbentleson), [LinkedIn](https://linkedin.com/in/mcbentleson), find him on [Facebook](https://www.facebook.com/mcbentleson) and he'd love to chat about this stuff with you.
 

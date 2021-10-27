@@ -26,7 +26,7 @@ tags:
 
 In this episode, [Jon-Stephen Stansel](https://twitter.com/jsstansel) and [Joel Goodman](https://twitter.com/joelgoodman) talk about the importance of using clear language when marketing in higher education. We ask the question, "Are we paying attention to the language we use and what it communicates to our students and prospective students?"
 
-<!-- more -->
+<!--more-->
 
 **Joel Goodman:** Welcome to Thought Feeder. I'm Joel Goodman,
 

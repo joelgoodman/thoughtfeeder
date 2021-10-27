@@ -27,7 +27,7 @@ Special guest [Ella Dawson](https://twitter.com/brosandprose) joins [J.S. Stanse
 
 [Ella Dawson](https://elladawson.com) is an author, critic, and social media professional. She formerly was the Senior Social Media Editor at TED Conferences and currently is the Social Media Manager for Meet Cute.
 
-<!-- more -->
+<!--more-->
 
 ## _The Hard Work of Social Media Management_ Transcript
 

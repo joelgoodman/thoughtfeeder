@@ -27,7 +27,7 @@ tags:
 
 J.S. and Joel and joined by the always wonderful Erin Supinka to talk about how she goes about developing relationships with her coworkers. This episode contains a ton of great insight into working successfully with other people. Whether you're new to your job or a seasoned pro, Erin's thoughts are well worth a listen.
 
-<!-- more -->
+<!--more-->
 
 ## Podcast Transcript
 

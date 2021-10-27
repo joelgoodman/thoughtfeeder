@@ -28,7 +28,7 @@ tags:
 
 Joel Goodman and Jon-Stephen Stansel are joined by Eddie Francis, Director of Communications and Marketing at [Dillard University](https://dillard.edu?utm_source=thoughtfeeder&utm_campaign=ep19). Eddie discusses his work in HBCU Comms, building communities, and provides advice to predominantly white institutions on caring for their Black communities.
 
-<!-- more -->
+<!--more-->
 
 ## _Communicate Constantly: Lessons from HBCU Comms_ Transcript
 

@@ -29,7 +29,7 @@ tags:
 
 **Sponsored by Podium Education.** Thought Feeder's first mailbag episode where Jon-Stephen Stansel and Joel Goodman answer listener questions. This episode covers governance, accessibility, and workplace politics.
 
-<!-- more -->
+<!--more-->
 
 ## _HigherEd Marketing Mailbag_ Transcript
 

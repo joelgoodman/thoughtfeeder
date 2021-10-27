@@ -1,18 +1,41 @@
 body {
     background: var(--gradient-bg) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     color: var(--text-color);
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     overflow: hidden;
-    justify-content: space-between;
+    justify-content: stretch;
     align-content: center;
     padding-bottom: 15vh;
+    @include mq(sm) {
+        padding-bottom: calc( var(--grid-unit) * 3);
+        justify-content: stretch;
+    }
+    @include mq(lg) {
+        overflow: scroll;
+    }
 }
-main {
-    justify-self: center;
+
+img {
+  max-width: 100%;
 }
+img[width] {
+  width: auto; /* Defer to max-width */
+}
+img[width][height] {
+  height: auto; /* Preserve aspect ratio */
+}
+
+/* Let SVG scale without boundaries */
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
 a {
     color: inherit;
     main & {
@@ -26,6 +49,7 @@ button {
     box-shadow: none;
     border: 0;
     color: inherit;
+    cursor: pointer;
     padding: 0;
     font-family: var(--font-secondary);
 }
@@ -53,13 +77,20 @@ button {
         font-size: 0.875em;
         display: flex;
         border-radius: 40px;
-        width: auto;
         align-items: center;
         justify-content: center;
         width: 140px;
         margin-left: auto;
         margin-right: auto;
         bottom: calc( 2 * var(--grid-unit));
+        @include mq(md) {
+            margin: var(--grid-unit) 0;
+            font-size: 0.667em !important;
+        }
+        @include mq(lg) {
+            margin: var(--grid-unit) 0;
+            font-size: 0.875em !important;
+        }
     }
 }
 .tf-toolbar {
@@ -92,55 +123,234 @@ button {
         justify-self: start;
         text-decoration: none;
     }
-}
-.episode--cover {
-    height: 33.35vh;
-    overflow: visible;
-    width: auto;
-    display: flex;
-    > figure {
-        box-shadow: var(--elevation);
-        object-fit: contain;
-        object-position: center;
-        border-radius: var(--border-radius);
-        overflow: hidden;
-        height: 100%;
-        width: auto;
-        margin-left: auto;
-        margin-right: auto;
-        img {
-            max-width: 100%;
-            height: 100%;
-            width: auto;
+    @include mq(sm) {
+        padding: var(--vspace) calc(var(--hspace) * 2);
+    }
+    @include mq(md) {
+        padding: var(--vspace) var(--hspace);
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        .site-nav {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            .cta {
+                border: unset;
+                padding: 0;
+                backdrop-filter: unset;
+            }
+        }
+        a {
+            font-weight: 700;
+            font-family: var(--font-secondary);
+        }
+        .branding {
+            margin: 0 calc(var(--grid-unit) * 3) 0 0;
         }
     }
 }
-.episode--info {
-    text-align: center;
-    @extend .hpadding;
-    margin-top: calc( 3 * var(--grid-unit) );
-    h2 {
-        line-height: 1.1;
-        padding-left: var(--hspace);
-        padding-right: var(--hspace);
+.episode {
+    grid-area: epcontent;
+    > header {
+        text-align: center;
+        @extend .hpadding;
+        margin-top: 4vh;
+        @include mq(md) {
+            padding: 0;
+            text-align: left;
+        }
+    }
+    &--excerpt {
+        display: none;
+    }
+    &--number {
+        color: var(--color-blush);
+        font-family: var(--font-secondary);
+        margin-bottom: var(--grid-unit);
+        em {
+            font-style: normal;
+        }
+        .layout-home & {
+            color: var(--text-color);
+            em {
+                color: var(--color-blush);
+            }
+        }
+    }
+    &--info {
+        margin: 0;
+        h2 {
+            line-height: 1.1;
+            padding-left: var(--hspace);
+            padding-right: var(--hspace);
+        }
+    }
+    &--duration {
+        font-family: var(--font-secondary);
+    }
+    &--transcript {
+        padding-bottom: calc(var(--grid-unit) * 2);
+    }
+    @include mq(sm) {
+        &--cover {
+            height: 36vh;
+        }
+        &--info {
+            max-width: 58vw;
+            margin: 0 auto;
+        }
+        &--excerpt {
+            display: block;
+            margin-bottom: calc(var(--grid-unit) * 2);
+        }
+        &--transcript {
+            position: relative;
+            bottom: auto;
+            width: auto;
+        }
+    }
+    @include mq(md) {
+        &--info {
+            text-align: left;
+            padding: 0;
+            margin: 0;
+            font-size: 1rem;
+            h2 {
+                padding: 0;
+            }
+        }
+        &--cover {
+            height: auto;
+        }
+    }
+    @include mq(lg) {
+        padding-top: 25vh;
+        max-width: 680px;
     }
 }
-.episode--number {
-    color: var(--color-blush);
-    font-family: var(--font-secondary);
-    margin-bottom: var(--grid-unit);
+.episode--cover {
+    grid-area: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        object-fit: contain;
+        width: 100%;
+        object-position: center;
+        box-shadow: var(--elevation);
+        border-radius: var(--border-radius);
+    }
+    @include mq(lg) {
+        position: sticky;
+        top: 23vh;
+    }
 }
-.episode--duration {
-    font-family: var(--font-secondary);
+.player {
+    grid-area: player;
+    align-content: end;
+    @include mq(md) {
+        align-self: end;
+        padding-bottom: calc(4 * var(--grid-unit));
+    }
 }
+
 .episode--transcript {
     position: absolute;
-    bottom: 15px;
+    bottom: 0;
     left: 0;
     width: 100vw;
+    @include mq(md) {
+        position: static;
+        width: auto;
+    }
 }
 
 .cta--transcript, .episode--number, .episode--duration {
     font-size: 0.875em;
     font-weight: 700;
+}
+
+#subscribe-links {
+    left: var(--hspace);
+    top: 50%;
+    flex-direction: column;
+    width: 24px;
+    row-gap: 20px;
+    transform: translateY(-50%) translateX(-200%);
+    position: absolute;
+    display: none;
+    svg {
+        display: block;
+        height: 24px;
+        width: 24px;
+    }
+    a {
+        opacity: 0.6;
+        transition: opacity .2s ease-in-out;
+        &:hover {
+            opacity: 1;
+        }
+    }
+    @include mq(md) {
+        display: flex;
+        transform: translateY(-50%) translateX(0);
+    }
+}
+
+main {
+    display: grid;
+    // flex: 1 auto;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 35vh auto auto;
+    padding: 0 var(--hspace);
+    justify-content: center;
+    // Layouts
+    grid-template-areas:
+        ". cover cover cover ."
+        "epcontent epcontent epcontent epcontent epcontent"
+        "player player player player player";
+    @include mq(xs) {
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-areas:
+        ". cover cover cover cover cover cover ."
+        "epcontent epcontent epcontent epcontent epcontent epcontent epcontent epcontent"
+        "player player player player player player player player";
+    }
+    @include mq(sm) {
+        grid-template-areas:
+        ". . cover cover cover cover . ."
+        ". epcontent epcontent epcontent epcontent epcontent epcontent ."
+        "player player player player player player player player";
+    }
+     @include mq(md) {
+        column-gap: calc( 5 * var(--grid-unit) );
+        height: calc( 100vh - 104px);
+        max-width: 855px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        grid-template-rows: auto 205px;
+        grid-template-areas:
+        "cover cover cover cover epcontent epcontent epcontent epcontent"
+        "player player player player player player player player";
+    }
+    @include mq(lg) {
+        column-gap: calc( 8 * var(--grid-unit) );
+        max-width: 100%;
+        width: 100vw;
+        padding-left: calc( (100vw - 77vw) / 2 );
+        padding-right: calc( (100vw - 77vw) / 2 );
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        grid-template-rows: calc( 100vh - 104px - 205px) 205px auto;
+        grid-template-areas:
+        "cover cover cover epcontent epcontent epcontent epcontent epcontent"
+        "player player player epcontent epcontent epcontent epcontent epcontent"
+        ". . . epcontent epcontent epcontent epcontent epcontent";
+    }
 }

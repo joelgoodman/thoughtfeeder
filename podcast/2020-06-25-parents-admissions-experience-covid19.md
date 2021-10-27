@@ -30,7 +30,7 @@ tags:
 
 _Mike is the Principal of [Gas Mark 8](https://gasmark8.com?utm_source=thoughtfeeder), a digital agency working in the US and U.K. with non-profit and education organizations._
 
-<!-- more -->
+<!--more-->
 
 ## _A Prospective Parent's Perspective on Admissions_ Transcript
 

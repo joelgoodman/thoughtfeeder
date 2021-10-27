@@ -30,7 +30,7 @@ tags:
 
 [Ron Bronson](https://twitter.com/ronbronson) joins Joel Goodman and Jon-Stephen Stansel to talk about how ongoing research leads to more compassionate and human design decisions in higher education content, websites, student services, and interactions. Ron also discusses what he calls Consequence Design and how it maps the hostility baked into human-centered and service design processes.
 
-<!-- more -->
+<!--more-->
 
 ## _Service Design & Consequences_ Transcript
 

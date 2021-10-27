@@ -27,7 +27,7 @@ tags:
 
 Joel and J.S. are joined by [Michael Green](https://twitter.com/JMG_III) from [Texas A&M University](https://tamu.edu) to talk about how University Marketing can better work with Athletics Marketing offices. Come for the good advice, stay for conversations about identity and the role of athletics in building a campus culture.
 
-<!-- more -->
+<!--more-->
 
 ## _Teaming up with Athletics Marketing_ Transcript
 

@@ -30,7 +30,7 @@ tags:
 
 Special guest, [Amanda Goetz](https://twitter.com/AmandaMGoetz), Vice President of Marketing for [The Knot Worldwide](https://theknotww.com?utm_source=thoughtfeeder&utm_campaign=ep20), joins [Jon-Stephen Stansel](https://jsstansel.com?utm_source=thoughtfeeder&utm_campaign=ep20) and [Joel Goodman](https://joelgoodman.co?utm_source=thoughtfeeder&utm_campaign=ep20) to discuss how important values-based goal setting is to any organization's health. How does the wedding industry apply to higher ed? Listen to find out.
 
-<!-- more -->
+<!--more-->
 
 ## _How to Set Goals Beyond the Mission Statement_ Episode Transcript
 

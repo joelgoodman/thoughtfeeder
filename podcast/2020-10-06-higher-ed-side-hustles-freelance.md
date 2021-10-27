@@ -24,7 +24,7 @@ tags:
 
 In this episode, Joel Goodman talks about how he started [Bravery Media](https://bravery.co/?utm_source=thoughtfeeder&utm_campaign=ep26), the difficulties in legitimizing a higher ed career to other industries, and the challenges in going freelance.
 
-<!-- more -->
+<!--more-->
 
 ## Transcript for _How to side-hustle in higher ed_
 

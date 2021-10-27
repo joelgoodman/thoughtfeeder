@@ -24,7 +24,7 @@ tags:
 
 The ins-and-outs of weighing whether to join a new social media platform. Does your university really want to be associated with hyper-politicized platforms like Parler?
 
-<!-- more -->
+<!--more-->
 
 **Joel Goodman:** Welcome to Thought Feeder. My name is Joel. With me as always is the long-suffering Jon-Stephen Stansel. Today, he really wants to talk about the fringe social networks that have been popping up in light of the political-right exodus from Twitter and Facebook, in particular. JS wants to talk about Parler.
 

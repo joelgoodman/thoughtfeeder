@@ -5,8 +5,9 @@
         {% include "components/toolbar.njk" %}
         <main>
             {{ layoutContent | safe }}
+            {% include "components/player-controls.njk" %}
         </main>
-        {% include "components/player-controls.njk" %}
+        {% include "components/subscribe-bar.njk" %}
         {% include "components/episode-list.njk" %}
         {% set js %}
             {% include "_includes/assets/js/critical.js" %}

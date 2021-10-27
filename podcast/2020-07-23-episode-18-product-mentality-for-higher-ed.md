@@ -28,7 +28,7 @@ tags:
 
 Mike Petroff from Harvard Business Publishing joins Joel and J.S. to discuss bringing Product Management techniques into colleges and universities.
 
-<!-- more -->
+<!--more-->
 
 ## _Product Strategy in Higher Education_ Transcript
 

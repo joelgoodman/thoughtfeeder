@@ -23,7 +23,7 @@ tags:
 
 [Jon-Stephen Stansel](https://jsstansel.com) and [Joel Goodman](https://joelgoodman.co/?utm_source=thoughtfeeder) talk about the conference bubble and how best to get everything we can out of attending a conference. Do online conferences present better opportunities for leadership to hear our struggles? Will more people attend online conferences? And how can we turn a sympathy party into a learning experience?
 
-<!-- more -->
+<!--more-->
 
 ## _Preaching to the Choir_ Transcript
 

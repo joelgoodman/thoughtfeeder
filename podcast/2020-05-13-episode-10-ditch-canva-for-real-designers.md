@@ -24,7 +24,7 @@ tags:
 
 What's the value of good design to a university's brand reach? [Jon-Stephen Stansel](https://twitter.com/jsstansel) thinks it's worth an awful lot more than Canva's $13/month for overused templates. In this tenth episode of _Thought Feeder_, J.S. and [Joel](https://twitter.com/joelgoodman) talk about how using mass-produced templated designs from any service can negatively affect an organization's visual brand. They also offer alternatives to help bridge the gap for non-designers who are responsible for doing design work.
 
-<!-- more -->
+<!--more-->
 
 ## Transcript for _Ditch Canva for Real Designers_
 

@@ -31,7 +31,7 @@ tags:
 **This episode is sponsored by [Podium Education](https://podiumeducation.com?utm_source=thoughtfeeder&utm_campaign=ep25).**
 Alexa Heinrich ([@HashtagHeyAlexa](https://twitter.com/HashtagHeyAlexa)) joins Jon-Stephen and Joel to talk about accessibility on social media.
 
-<!-- more -->
+<!--more-->
 
 ## This episode is sponsored by Podium Education
 

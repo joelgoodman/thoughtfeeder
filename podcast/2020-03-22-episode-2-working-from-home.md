@@ -25,7 +25,7 @@ tags:
 
 J.S. Stansel and Joel Goodman discuss the relatively new higher education paradigm of working from home. This episode contains pro-tips for homebound productivity and a couple of rants about how slow higher ed has been to adopt a distributed workforce.
 
-<!-- more -->
+<!--more-->
 
 ## Episode Transcript
 

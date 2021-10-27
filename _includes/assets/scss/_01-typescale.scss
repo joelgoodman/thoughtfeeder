@@ -23,11 +23,16 @@ h4 {
 
 h2 {
     font-size: 1.2em;
+    line-height: 1.137;
     @include mq(xs) {
         font-size: 1.563em;
     }
-    @include mq(md) {
+    @include mq(sm) {
+        margin-bottom: 1rem;
         font-size: 1.953em;
+    }
+    @include mq(md) {
+        font-size: 1.563em;
     }
 }
 
@@ -43,4 +48,5 @@ h4 {
 
 p {
     font-family: 1em;
+    margin-bottom: 0.8em;
 }

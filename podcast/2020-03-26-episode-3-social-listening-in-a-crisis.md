@@ -32,7 +32,7 @@ tags:
 
 Subscribe to [Campus Sonar's COVID-19 Social Media Briefings](https://info.campussonar.com/covid19), too!
 
-<!-- more -->
+<!--more-->
 
 ## _Social Listening in a Crisis_ Transcript
 

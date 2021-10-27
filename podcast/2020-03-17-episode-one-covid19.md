@@ -26,7 +26,7 @@ tags:
 
 [Joel Goodman](https://joelgoodman.co/?utm_source=thoughtfeeder) and [J.S. Stansel](https://jsstansel.com/?utm_source=thoughtfeeder) discuss the challenges of covering a global emergency as a higher education social media manager.
 
-<!-- more -->
+<!--more-->
 
 ## _COVID-19 in #HESM_ Transcript
 

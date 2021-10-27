@@ -75,7 +75,6 @@ $mq: (
     --cta-transcript-color: var(--text-color);
     --progress-bar: var(--color-dark);
     --progress-fill: var(--color-brand--green);
-    --waveform: #BAA4FF;
     @include mq(xs) {
         --vspace: calc( 4 * var(--grid-unit) );
     }
@@ -87,7 +86,6 @@ $mq: (
         --cta-transcript-color: var(--color-dark);
         --progress-bar: var(--color-brand--dark);
         --progress-fill: var(--color-blush);
-        --waveform: #4421AB;
     }
     --base-font-size: clamp(1rem, calc(2vw + 2px), 1.313rem );
 

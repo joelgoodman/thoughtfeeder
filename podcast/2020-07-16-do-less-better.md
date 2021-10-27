@@ -27,7 +27,7 @@ tags:
 
 [Michael Fienen](https://twitter.come/fienen), host of the Drunken UX Podcast and CTO of nuCloud joins Joel and J.S. to talk about how a better focus on the most valuable pieces of marketing could produce radical change in higher education. Do less, better.
 
-<!-- more -->
+<!--more-->
 
 ## _Do Less, Better_ Transcript
 

@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
+section: "home"
 ---
 {% set episodeList = collections.episodes | reverse %}
 
 {% for episode in episodeList.slice(0,1) %}
   {% include "components/ep-small.njk" %}
-  <div class="time"><span id="timer">0:00</span>/<span id="duration">{{episode.data.pod.duration}}</span></div>
 {% endfor %}

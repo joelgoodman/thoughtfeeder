@@ -31,7 +31,7 @@ tags:
 
 Dr. Allen Thomas joins J.S. Stansel and Joel Goodman to talk about what true diversity and inclusion can look like in higher education marketing. In this episode, we talk about the balance between authenticity and aspirational marketing when it comes to inclusivity.
 
-<!-- more -->
+<!--more-->
 
 ## Transcript for _Authentically Marketing Inclusivity in Higher Ed_
 

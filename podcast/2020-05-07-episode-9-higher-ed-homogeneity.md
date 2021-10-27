@@ -24,7 +24,7 @@ tags:
 
 Joel and J.S. discuss the sameness of marketing, design, and website user experiences across higher education and try to suss out ways to inject new life and variety into how we market our colleges and universities.
 
-<!-- more -->
+<!--more-->
 
 Joel mentions this past talk in the show: [_Study Abroad_ (2013)](https://speakerdeck.com/joelgoodman/study-abroad-borrowing-ideas-design-and-strategy-from-beyond-the-walls-of-academia)
 

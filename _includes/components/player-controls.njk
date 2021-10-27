@@ -1,4 +1,8 @@
+{% set episodeList = collections.episodes | reverse %}
 <div class="player" id="audio-controls">
+    {% for episode in episodeList.slice(0,1) %}
+        <div class="time"><span id="timer">0:00</span>/<span id="duration">{{episode.data.pod.duration}}</span></div>
+    {% endfor %}
     <div class="progress-group">
         <div class="progress-bar">
             <progress value="0" max="100"></progress>

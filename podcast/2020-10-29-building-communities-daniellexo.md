@@ -30,7 +30,7 @@ tags:
 
 Danielle Maveal joins Thought Feeder to talk about her experiences building strong communities for brands and the importance of setting organization-wide values.
 
-<!-- more -->
+<!--more-->
 
 ## Transcript for _Building Strong, Values-driven Communities_
 

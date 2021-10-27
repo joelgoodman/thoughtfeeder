@@ -115,6 +115,7 @@ module.exports = function(eleventyConfig) {
     // Don't process files and folders with static assets e.g. images
     eleventyConfig
         .addPassthroughCopy({"_includes/assets/img":"assets/img"})
+        .addPassthroughCopy({"_includes/assets/icons":"assets/icons"})
         .addPassthroughCopy("manifest.json")
         .addPassthroughCopy("site.webmanifest")
         .addPassthroughCopy("browserconfig.xml")

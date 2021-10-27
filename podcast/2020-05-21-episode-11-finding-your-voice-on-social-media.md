@@ -29,7 +29,7 @@ tags:
 
 Thanks for giving Thought Feeder another listen! If you have a moment, we'd greatly appreciate your [honest review and rating](https://podcasts.apple.com/us/podcast/thought-feeder/id1503117850) of our podcast.
 
-<!-- more -->
+<!--more-->
 
 ## Episode 11 Transcript
 

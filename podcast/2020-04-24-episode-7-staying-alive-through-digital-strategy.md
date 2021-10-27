@@ -26,7 +26,7 @@ The digital strategy decisions made by colleges and universities in 2020 will la
 
 You can read more on this topic at [insight.bravery.co.](https://insight.bravery.co/how-universities-will-survive-covid19?utm_source=thoughtfeeder)
 
-<!-- more -->
+<!--more-->
 
 ## Episode 7 Transcript
 

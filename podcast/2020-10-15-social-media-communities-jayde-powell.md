@@ -27,7 +27,7 @@ tags:
 
 Jayde Powell joins the podcast today to talk about how her internships as a young professional shaped her views on social media strategy and the importance of community on the web.
 
-<!-- more -->
+<!--more-->
 
 ## Transcript for _Putting the Social Back in Social Media_
 

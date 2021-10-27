@@ -30,7 +30,7 @@ Joel and J.S. are joined by accessibility advocate [Erika Boltz](https://twitter
 
 Erika Boltz is a communicator, ally, and activist living with a disability in Jacksonville, Florida. She has spent the last nine years working toward more inclusive content and communications in higher education spaces.
 
-<!-- more -->
+<!--more-->
 
 ## _Crafting a Culture of Accessibility_ Transcript
 
